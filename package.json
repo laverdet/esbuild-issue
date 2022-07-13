@@ -1,0 +1,9 @@
+{
+    "type": "module",
+    "private": true,
+    "version": "1.0.0",
+    "scripts": {
+        "build": "npx esbuild --bundle main.js | node --input-type module",
+        "run": "node main.js"
+    }
+}
